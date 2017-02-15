@@ -1,0 +1,10 @@
+framework module SilverPlate {
+  umbrella header "SilverPlate.h"
+
+  export *
+  module * { export * }
+}
+
+module SilverPlate.Swift {
+    header "SilverPlate-Swift.h"
+}

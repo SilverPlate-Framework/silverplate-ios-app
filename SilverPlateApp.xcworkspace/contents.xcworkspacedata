@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:SilverPlateApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:SilverPlate.framework"
+      name = "SilverPlate.framework">
+      <Group
+         location = "group:_CodeSignature"
+         name = "_CodeSignature">
+         <FileRef
+            location = "group:CodeResources">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:Headers"
+         name = "Headers">
+         <FileRef
+            location = "group:SilverPlate-Swift.h">
+         </FileRef>
+         <FileRef
+            location = "group:SilverPlate.h">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:Info.plist">
+      </FileRef>
+      <Group
+         location = "group:Modules"
+         name = "Modules">
+         <FileRef
+            location = "group:module.modulemap">
+         </FileRef>
+         <Group
+            location = "group:SilverPlate.swiftmodule"
+            name = "SilverPlate.swiftmodule">
+            <FileRef
+               location = "group:x86_64.swiftdoc">
+            </FileRef>
+            <FileRef
+               location = "group:x86_64.swiftmodule">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:SilverPlate">
+      </FileRef>
+   </Group>
+</Workspace>

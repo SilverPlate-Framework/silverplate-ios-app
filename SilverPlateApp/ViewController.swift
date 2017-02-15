@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import SilverPlate
 
 class ViewController: UIViewController {
+    @IBOutlet weak var netStatusLabel: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        SilverPlate.shared.onInternetStatusChanged = { (status) in
+            self.netStatusLabel.text = "Connectivity status: \(status)"
+        }
     }
 
     override func didReceiveMemoryWarning() {
