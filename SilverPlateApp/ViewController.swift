@@ -15,7 +15,20 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         SilverPlate.shared.onInternetStatusChanged = { (status) in
+            
             self.netStatusLabel.text = "Connectivity status: \(status)"
+            
+            switch status {
+            case SilverPlate.Network.wifi:
+                // Do some heavy download
+                break
+            case SilverPlate.Network.cellular:
+                // Now easy with the data load
+                break
+            case SilverPlate.Network.none:
+                // Don't try to fetch anything from the web
+                break
+            }
         }
     }
 
