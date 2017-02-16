@@ -22,21 +22,49 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDl-N6-ETz">
-                                <rect key="frame" x="16" y="323" width="343" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="1r9-Ix-HbL">
+                                <rect key="frame" x="16" y="302.5" width="343" height="61.5"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Connectivity: getting net status" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDl-N6-ETz" userLabel="Net State Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery: Waiting for changing state" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cvp-Ug-ccx" userLabel="Battery State Label">
+                                        <rect key="frame" x="0.0" y="20.5" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Battery: Waiting for changing level" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="esb-4a-qHM" userLabel="Battery Level Label">
+                                        <rect key="frame" x="0.0" y="41" width="343" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="trailingMargin" secondItem="zDl-N6-ETz" secondAttribute="trailing" id="QqG-7n-pze"/>
+                                    <constraint firstItem="zDl-N6-ETz" firstAttribute="leading" secondItem="1r9-Ix-HbL" secondAttribute="leadingMargin" id="RCC-gc-uaf"/>
+                                    <constraint firstItem="esb-4a-qHM" firstAttribute="leading" secondItem="1r9-Ix-HbL" secondAttribute="leadingMargin" id="b6X-so-fZF"/>
+                                    <constraint firstItem="cvp-Ug-ccx" firstAttribute="leading" secondItem="1r9-Ix-HbL" secondAttribute="leadingMargin" id="c7y-AT-7eW"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="esb-4a-qHM" secondAttribute="trailing" id="f8o-dm-37h"/>
+                                    <constraint firstAttribute="trailingMargin" secondItem="cvp-Ug-ccx" secondAttribute="trailing" id="ius-SO-bRU"/>
+                                </constraints>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailingMargin" secondItem="zDl-N6-ETz" secondAttribute="trailing" id="8z9-rz-LRy"/>
-                            <constraint firstItem="zDl-N6-ETz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="OKL-Zb-0Rc"/>
-                            <constraint firstItem="zDl-N6-ETz" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="QXw-yU-CWo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="1r9-Ix-HbL" secondAttribute="trailing" id="7Gl-UF-YrS"/>
+                            <constraint firstItem="1r9-Ix-HbL" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="GBo-sL-Eq2"/>
+                            <constraint firstItem="1r9-Ix-HbL" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="X5M-If-Zln"/>
+                            <constraint firstItem="1r9-Ix-HbL" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="b6v-Xp-Mk1"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="batteryLevelLabel" destination="esb-4a-qHM" id="PaH-z7-aod"/>
+                        <outlet property="batteryStateLabel" destination="cvp-Ug-ccx" id="thZ-nO-7It"/>
                         <outlet property="netStatusLabel" destination="zDl-N6-ETz" id="3P9-Xy-Dcj"/>
                     </connections>
                 </viewController>
