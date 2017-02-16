@@ -14,8 +14,6 @@
 		D31A92441E53EFE30019CA2A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D31A92431E53EFE30019CA2A /* Assets.xcassets */; };
 		D31A92471E53EFE30019CA2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D31A92451E53EFE30019CA2A /* LaunchScreen.storyboard */; };
 		D31A92521E53EFE40019CA2A /* SilverPlateAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D31A92511E53EFE40019CA2A /* SilverPlateAppTests.swift */; };
-		D3FEC70A1E53F0ED0060063D /* SilverPlate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D3FEC7091E53F0ED0060063D /* SilverPlate.framework */; };
-		D3FEC70B1E53F0ED0060063D /* SilverPlate.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D3FEC7091E53F0ED0060063D /* SilverPlate.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D6954B0DFEF8AA1DB593498C /* Pods_SilverPlateApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A061CCC822EFB2293F9B40 /* Pods_SilverPlateApp.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,7 +34,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				D3FEC70B1E53F0ED0060063D /* SilverPlate.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -59,7 +56,6 @@
 		D31A924D1E53EFE40019CA2A /* SilverPlateAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SilverPlateAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D31A92511E53EFE40019CA2A /* SilverPlateAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SilverPlateAppTests.swift; sourceTree = "<group>"; };
 		D31A92531E53EFE40019CA2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D3FEC7091E53F0ED0060063D /* SilverPlate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SilverPlate.framework; sourceTree = "<group>"; };
 		F0DE869030BDC6BC139D2F75 /* Pods_SilverPlateAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SilverPlateAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -68,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3FEC70A1E53F0ED0060063D /* SilverPlate.framework in Frameworks */,
 				D6954B0DFEF8AA1DB593498C /* Pods_SilverPlateApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -107,7 +102,6 @@
 		D31A92301E53EFE30019CA2A = {
 			isa = PBXGroup;
 			children = (
-				D3FEC7091E53F0ED0060063D /* SilverPlate.framework */,
 				D31A923B1E53EFE30019CA2A /* SilverPlateApp */,
 				D31A92501E53EFE40019CA2A /* SilverPlateAppTests */,
 				D31A923A1E53EFE30019CA2A /* Products */,
