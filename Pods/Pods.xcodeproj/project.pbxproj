@@ -7,72 +7,116 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1649EA6CCDD1060A2BD26AD46ECC2670 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */; };
-		1E30639CB38BE20156A4B403021A352C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
+		0E51C6E6E818810113B2C210B29BF9E0 /* SilverPlateTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0A3B9BBAFCFD8FE1047E7B8F4DC413 /* SilverPlateTypes.swift */; };
+		0F593018BC53FA16E68332BEE759BFEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1182251178B68F842CB2971E27E6B636 /* Foundation.framework */; };
+		27C26564C03F5E6753FDA38C18DB4778 /* ReachabilitySwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F84B6130651A2D33B43E2262595D590 /* ReachabilitySwift.framework */; };
 		35599249D08A532E5BE0C7B767EE1475 /* Pods-SilverPlateAppTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 584B6AF1F7C00C6074532A355B94FF90 /* Pods-SilverPlateAppTests-dummy.m */; };
-		4F8224218C4B552DDB3A9E808BD59CE0 /* Pods-SilverPlateApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 499651BAA8489BBEA7AC912C4C7A0721 /* Pods-SilverPlateApp-dummy.m */; };
-		4FC04B58E6CBAEFE349937D50B4F7C12 /* Pods-SilverPlateApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB9A406E21AC9CC1C4A10A96B0542A8 /* Pods-SilverPlateApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8EF43458B72D54059DFF66BFA7BEC927 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
-		9BC56CE052C42EE86CEEFBDDD6443DD7 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B0173D02276968EB9711C6BF944032E /* ReachabilitySwift-dummy.m */; };
+		4345E779C44760198F4F86D3A31B36D4 /* ReachabilitySwift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9C7710E1BAFB1EF6674E48B4E3335CE /* ReachabilitySwift-dummy.m */; };
+		475390B17017ADD25D67E9EC30C9DF1C /* Pods-SilverPlateApp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 499651BAA8489BBEA7AC912C4C7A0721 /* Pods-SilverPlateApp-dummy.m */; };
+		55994F314CD75F17EF7F5949EB5916E2 /* SilverPlate-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B7ADED5143D5691F6A87BB66E3372A07 /* SilverPlate-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60C726B5AC1D172DC2612D30B52E4051 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1182251178B68F842CB2971E27E6B636 /* Foundation.framework */; };
+		7EA29C6247ABD438A8C3818478C8FF20 /* SilverPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 945649410FD80BE769B83A8EFE2275B3 /* SilverPlate.swift */; };
+		81B7205D8827A6E2AB4CDC9091589ECF /* SilverPlate-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB28602CBCF9DC27D54E8BB45A333B0 /* SilverPlate-dummy.m */; };
+		8B876DDC832499D5C86F76C623C61630 /* Pods-SilverPlateApp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DDB9A406E21AC9CC1C4A10A96B0542A8 /* Pods-SilverPlateApp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		958DB6D521068A0165E2F6C0951764DA /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0264551DB4C10DBD492506074C10C38 /* Reachability.swift */; };
+		9C6058D452FC7E8E2EF5032A99D51D06 /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FC597B6BC62D83B56E70914E5E39F50 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8E5462CFEFF89EDEA12597EE7C92E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1182251178B68F842CB2971E27E6B636 /* Foundation.framework */; };
 		A96F4DE017ED7920F5CF755F063DD2AC /* Pods-SilverPlateAppTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D3D8F0DA0BF885806D2DFCA99999CF3A /* Pods-SilverPlateAppTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E53B86880E5A52EEA896E3880B989B76 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */; };
-		EA4577969F1B121A33B0E3A13915A259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */; };
-		F2AFFB0D81A3F923DCCE495411E8566C /* ReachabilitySwift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 275E6C6BD881C64FF5A9275414CDD168 /* ReachabilitySwift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C993BD8ADF086C93A7F45E8B8E66BDFB /* SilverPlate.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C29E274C61BA77B20AF38FE4B5624BA /* SilverPlate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2851DED0ABA820CF19C11E25EE7B613 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 889B61308E6F62758BA6DDB5C4F4122C /* SystemConfiguration.framework */; };
+		EA4577969F1B121A33B0E3A13915A259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1182251178B68F842CB2971E27E6B636 /* Foundation.framework */; };
+		EA8154E3263369F32E308A4FCBFABDD0 /* ConnectivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C763C4876A6D4160A46B9C4900215AC3 /* ConnectivityManager.swift */; };
+		EDF53719894A79B7E63A26836F3CEE81 /* BatteryManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D7E68EED1A4E2094D1AA697C5508CCC2 /* BatteryManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		81362C61CC0A6432048FE686CEF9FBD2 /* PBXContainerItemProxy */ = {
+		09841738290FA20D7F2CCF13F2870727 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FB1D360DE85892D2F4419E57EE724DFF;
+			remoteGlobalIDString = 574D49F11610FBED22FB5A84F1CCE32E;
+			remoteInfo = SilverPlate;
+		};
+		82022F77380DEDEAB76CA530D943A795 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4F48096EB41D8E96F8B130ED7FBE92;
+			remoteInfo = ReachabilitySwift;
+		};
+		D642FD1D184C30E23225C3CDE6F9A96C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AF4F48096EB41D8E96F8B130ED7FBE92;
 			remoteInfo = ReachabilitySwift;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		022DFEACFD5D0041997A86770F17F9C8 /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
-		092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
-		1BB2A29A6FDCDB14FFEAD8642AAFF91B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A11A643D78838C18B22B0005FCD5CEC /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
+		1182251178B68F842CB2971E27E6B636 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1496E0CDF724CE4EA20CC1170C0225AB /* SilverPlate.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SilverPlate.xcconfig; sourceTree = "<group>"; };
 		1D0D86CBFAFF840CAA8BA3E0D0EFFBEC /* Pods-SilverPlateAppTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SilverPlateAppTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		275E6C6BD881C64FF5A9275414CDD168 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		1F84B6130651A2D33B43E2262595D590 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC4A3A5460E74D7CE22467B0A7A2CCD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		358BFD17314791CD83360EA9BA948AA2 /* Pods-SilverPlateAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SilverPlateAppTests.debug.xcconfig"; sourceTree = "<group>"; };
 		3601257A8DF98901D8F11EEFF717E959 /* Pods-SilverPlateApp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SilverPlateApp-frameworks.sh"; sourceTree = "<group>"; };
 		3A50F3C64693B4AAF74904B318248D33 /* Pods-SilverPlateApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SilverPlateApp.release.xcconfig"; sourceTree = "<group>"; };
-		47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3C29E274C61BA77B20AF38FE4B5624BA /* SilverPlate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SilverPlate.h; path = SilverPlate/SilverPlate.h; sourceTree = "<group>"; };
 		499651BAA8489BBEA7AC912C4C7A0721 /* Pods-SilverPlateApp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SilverPlateApp-dummy.m"; sourceTree = "<group>"; };
 		4E6D424ACB34D005F5B4D31B1F184421 /* Pods-SilverPlateAppTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SilverPlateAppTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4FC597B6BC62D83B56E70914E5E39F50 /* ReachabilitySwift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-umbrella.h"; sourceTree = "<group>"; };
+		50AA1D2DFC14069C2758A3DBBC3F56B1 /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		528F98588336FD05A7D21E42ED52AD7F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		578FBE37F1A1C59EDBBBD0694556BA38 /* Pods-SilverPlateApp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SilverPlateApp-acknowledgements.plist"; sourceTree = "<group>"; };
 		584B6AF1F7C00C6074532A355B94FF90 /* Pods-SilverPlateAppTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SilverPlateAppTests-dummy.m"; sourceTree = "<group>"; };
+		5B0A3B9BBAFCFD8FE1047E7B8F4DC413 /* SilverPlateTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SilverPlateTypes.swift; path = SilverPlate/SilverPlateTypes.swift; sourceTree = "<group>"; };
+		5B88BF947B034F641D3E098DF9B285BD /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
 		5FCC290DE90CAE583D3CDF748B05E939 /* Pods-SilverPlateAppTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SilverPlateAppTests-resources.sh"; sourceTree = "<group>"; };
 		7125AE4FA39CA81CB60A9585244619F4 /* Pods-SilverPlateAppTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SilverPlateAppTests.modulemap"; sourceTree = "<group>"; };
 		714707A172A6A6FA0CCE4CBD460A3F59 /* Pods-SilverPlateApp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SilverPlateApp-acknowledgements.markdown"; sourceTree = "<group>"; };
 		715A04A4EDCB927F428AE9E1E6573EE6 /* Pods-SilverPlateApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SilverPlateApp.debug.xcconfig"; sourceTree = "<group>"; };
 		74D5C6CFA0AF3E8664B7C54C7F9D8E4F /* Pods-SilverPlateAppTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SilverPlateAppTests-frameworks.sh"; sourceTree = "<group>"; };
-		7B0173D02276968EB9711C6BF944032E /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
+		889B61308E6F62758BA6DDB5C4F4122C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
-		C35C564E2672F5E69541F51E5B8223B6 /* Pods_SilverPlateAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SilverPlateAppTests.framework; path = "Pods-SilverPlateAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		945649410FD80BE769B83A8EFE2275B3 /* SilverPlate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SilverPlate.swift; path = SilverPlate/SilverPlate.swift; sourceTree = "<group>"; };
+		9BB28602CBCF9DC27D54E8BB45A333B0 /* SilverPlate-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SilverPlate-dummy.m"; sourceTree = "<group>"; };
+		A8E1733754DCCC2C15EE381B226A45D7 /* Pods_SilverPlateAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SilverPlateAppTests.framework; path = "Pods-SilverPlateAppTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA3749B53271CBAB7A806723B1891D8C /* SilverPlate.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SilverPlate.modulemap; sourceTree = "<group>"; };
+		AFEEEE5D0ADEF1DB8AA58938BDDAC7CA /* SilverPlate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SilverPlate.framework; path = SilverPlate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7ADED5143D5691F6A87BB66E3372A07 /* SilverPlate-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SilverPlate-umbrella.h"; sourceTree = "<group>"; };
+		BB44F9A39D1E1816582967C1CBD129D8 /* Pods_SilverPlateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SilverPlateApp.framework; path = "Pods-SilverPlateApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C419AB381CB1E6921477D957CD82D7FD /* ReachabilitySwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ReachabilitySwift-prefix.pch"; sourceTree = "<group>"; };
 		C5F18C1D395044ECE5AA3BCC79B2E420 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C83B22AA12F333F2726894B4319B4CB2 /* ReachabilitySwift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ReachabilitySwift.modulemap; sourceTree = "<group>"; };
+		C763C4876A6D4160A46B9C4900215AC3 /* ConnectivityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ConnectivityManager.swift; path = SilverPlate/Managers/ConnectivityManager.swift; sourceTree = "<group>"; };
 		CBAAB9FB33CA77D2C61AF8D38712DC76 /* Pods-SilverPlateApp-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SilverPlateApp-resources.sh"; sourceTree = "<group>"; };
+		D0264551DB4C10DBD492506074C10C38 /* Reachability.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Reachability.swift; path = Reachability/Reachability.swift; sourceTree = "<group>"; };
+		D072851E4094CF4545EF9ABF2B8AC1B9 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D344462F4E8FDF294FEBC04610927902 /* Pods-SilverPlateApp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SilverPlateApp.modulemap"; sourceTree = "<group>"; };
 		D3D8F0DA0BF885806D2DFCA99999CF3A /* Pods-SilverPlateAppTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SilverPlateAppTests-umbrella.h"; sourceTree = "<group>"; };
+		D7E68EED1A4E2094D1AA697C5508CCC2 /* BatteryManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BatteryManager.swift; path = SilverPlate/Managers/BatteryManager.swift; sourceTree = "<group>"; };
 		DDB9A406E21AC9CC1C4A10A96B0542A8 /* Pods-SilverPlateApp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SilverPlateApp-umbrella.h"; sourceTree = "<group>"; };
-		E1106CB50BE294A4A243FEFAC9D80CF9 /* Pods_SilverPlateApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SilverPlateApp.framework; path = "Pods-SilverPlateApp.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E2D2A444FC528FC0D4C80F57A3D32F88 /* ReachabilitySwift.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ReachabilitySwift.xcconfig; sourceTree = "<group>"; };
-		EB9165BE59B237C148EBA2C7935556EF /* ReachabilitySwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ReachabilitySwift.framework; path = ReachabilitySwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E716C4841AD414DD84E6B3C6942FDFA0 /* SilverPlate-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SilverPlate-prefix.pch"; sourceTree = "<group>"; };
+		E9C7710E1BAFB1EF6674E48B4E3335CE /* ReachabilitySwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ReachabilitySwift-dummy.m"; sourceTree = "<group>"; };
 		FCCEA9510AD7C318107E6C74F3B7A4AB /* Pods-SilverPlateAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SilverPlateAppTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		82986A0340E4502881A2AE5995860A5E /* Frameworks */ = {
+		18D467F22563F9C9D4671A8B7033ACFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1E30639CB38BE20156A4B403021A352C /* Foundation.framework in Frameworks */,
-				E53B86880E5A52EEA896E3880B989B76 /* SystemConfiguration.framework in Frameworks */,
+				0F593018BC53FA16E68332BEE759BFEE /* Foundation.framework in Frameworks */,
+				27C26564C03F5E6753FDA38C18DB4778 /* ReachabilitySwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5C2D115A1588A71F87018AA70A71E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60C726B5AC1D172DC2612D30B52E4051 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,21 +128,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F533F09FA2A7DAF25C441FD335D14CFC /* Frameworks */ = {
+		CFDBBCC73513E519D2DAD7DE2ED25977 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8EF43458B72D54059DFF66BFA7BEC927 /* Foundation.framework in Frameworks */,
+				9FD8E5462CFEFF89EDEA12597EE7C92E /* Foundation.framework in Frameworks */,
+				D2851DED0ABA820CF19C11E25EE7B613 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+		23D957A18E39051E3C576E7521B8012B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B7141F310DB616A7B8460CB145EFEC3A /* iOS */,
+				1F84B6130651A2D33B43E2262595D590 /* ReachabilitySwift.framework */,
+				AD5CC2BBAC68F9D9AED61EA72E92A40D /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,56 +167,82 @@
 			path = "Target Support Files/Pods-SilverPlateApp";
 			sourceTree = "<group>";
 		};
-		7DB346D0F39D3F0E887471402A8071AB = {
+		60BC621D17244561952CBFF75589656E /* SilverPlate */ = {
 			isa = PBXGroup;
 			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9BCD5CBAACE7E3EBED55F693896BB924 /* Pods */,
-				9DF5CDA98F524E02DB8F13D58C742496 /* Products */,
-				E04D03A1669596132DEE78A32993D88B /* Targets Support Files */,
+				D7E68EED1A4E2094D1AA697C5508CCC2 /* BatteryManager.swift */,
+				C763C4876A6D4160A46B9C4900215AC3 /* ConnectivityManager.swift */,
+				3C29E274C61BA77B20AF38FE4B5624BA /* SilverPlate.h */,
+				945649410FD80BE769B83A8EFE2275B3 /* SilverPlate.swift */,
+				5B0A3B9BBAFCFD8FE1047E7B8F4DC413 /* SilverPlateTypes.swift */,
+				CE0DB448C1CE583E901D4986C9996433 /* Support Files */,
 			);
+			name = SilverPlate;
+			path = SilverPlate;
 			sourceTree = "<group>";
 		};
-		9BCD5CBAACE7E3EBED55F693896BB924 /* Pods */ = {
+		76661505A4F2CC23192DCE9DCCC30C6F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				F47FCCB16BA3F38D5553162F93FAF492 /* ReachabilitySwift */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		9DF5CDA98F524E02DB8F13D58C742496 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E1106CB50BE294A4A243FEFAC9D80CF9 /* Pods_SilverPlateApp.framework */,
-				C35C564E2672F5E69541F51E5B8223B6 /* Pods_SilverPlateAppTests.framework */,
-				EB9165BE59B237C148EBA2C7935556EF /* ReachabilitySwift.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		A9ED4EC8142E9CD679F2F17116535C39 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1BB2A29A6FDCDB14FFEAD8642AAFF91B /* Info.plist */,
-				C83B22AA12F333F2726894B4319B4CB2 /* ReachabilitySwift.modulemap */,
-				E2D2A444FC528FC0D4C80F57A3D32F88 /* ReachabilitySwift.xcconfig */,
-				7B0173D02276968EB9711C6BF944032E /* ReachabilitySwift-dummy.m */,
-				022DFEACFD5D0041997A86770F17F9C8 /* ReachabilitySwift-prefix.pch */,
-				275E6C6BD881C64FF5A9275414CDD168 /* ReachabilitySwift-umbrella.h */,
+				D072851E4094CF4545EF9ABF2B8AC1B9 /* Info.plist */,
+				5B88BF947B034F641D3E098DF9B285BD /* ReachabilitySwift.modulemap */,
+				0A11A643D78838C18B22B0005FCD5CEC /* ReachabilitySwift.xcconfig */,
+				E9C7710E1BAFB1EF6674E48B4E3335CE /* ReachabilitySwift-dummy.m */,
+				C419AB381CB1E6921477D957CD82D7FD /* ReachabilitySwift-prefix.pch */,
+				4FC597B6BC62D83B56E70914E5E39F50 /* ReachabilitySwift-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ReachabilitySwift";
 			sourceTree = "<group>";
 		};
-		B7141F310DB616A7B8460CB145EFEC3A /* iOS */ = {
+		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
-				47AA9769BAF0011C11306AF9A75742D8 /* Foundation.framework */,
-				092C124E24793E864CDCFFF2EE5ADE28 /* SystemConfiguration.framework */,
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				23D957A18E39051E3C576E7521B8012B /* Frameworks */,
+				9301F099F3ADDA034A5E2CD2758B254A /* Pods */,
+				B12CC1E65917EDE1462ECF6032F27C7D /* Products */,
+				E04D03A1669596132DEE78A32993D88B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		86E63E1DB5902A537B1C87AAD005EBF4 /* ReachabilitySwift */ = {
+			isa = PBXGroup;
+			children = (
+				D0264551DB4C10DBD492506074C10C38 /* Reachability.swift */,
+				76661505A4F2CC23192DCE9DCCC30C6F /* Support Files */,
+			);
+			name = ReachabilitySwift;
+			path = ReachabilitySwift;
+			sourceTree = "<group>";
+		};
+		9301F099F3ADDA034A5E2CD2758B254A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				86E63E1DB5902A537B1C87AAD005EBF4 /* ReachabilitySwift */,
+				60BC621D17244561952CBFF75589656E /* SilverPlate */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD5CC2BBAC68F9D9AED61EA72E92A40D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1182251178B68F842CB2971E27E6B636 /* Foundation.framework */,
+				889B61308E6F62758BA6DDB5C4F4122C /* SystemConfiguration.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		B12CC1E65917EDE1462ECF6032F27C7D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BB44F9A39D1E1816582967C1CBD129D8 /* Pods_SilverPlateApp.framework */,
+				A8E1733754DCCC2C15EE381B226A45D7 /* Pods_SilverPlateAppTests.framework */,
+				50AA1D2DFC14069C2758A3DBBC3F56B1 /* ReachabilitySwift.framework */,
+				AFEEEE5D0ADEF1DB8AA58938BDDAC7CA /* SilverPlate.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		B9A7DEDE245540E5469889E5ED72BF6D /* Pods-SilverPlateAppTests */ = {
@@ -191,6 +263,20 @@
 			path = "Target Support Files/Pods-SilverPlateAppTests";
 			sourceTree = "<group>";
 		};
+		CE0DB448C1CE583E901D4986C9996433 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				528F98588336FD05A7D21E42ED52AD7F /* Info.plist */,
+				AA3749B53271CBAB7A806723B1891D8C /* SilverPlate.modulemap */,
+				1496E0CDF724CE4EA20CC1170C0225AB /* SilverPlate.xcconfig */,
+				9BB28602CBCF9DC27D54E8BB45A333B0 /* SilverPlate-dummy.m */,
+				E716C4841AD414DD84E6B3C6942FDFA0 /* SilverPlate-prefix.pch */,
+				B7ADED5143D5691F6A87BB66E3372A07 /* SilverPlate-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SilverPlate";
+			sourceTree = "<group>";
+		};
 		E04D03A1669596132DEE78A32993D88B /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -200,32 +286,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		F47FCCB16BA3F38D5553162F93FAF492 /* ReachabilitySwift */ = {
-			isa = PBXGroup;
-			children = (
-				B69D4187F1B8F1EEEA7A0121DE67F2B7 /* Reachability.swift */,
-				A9ED4EC8142E9CD679F2F17116535C39 /* Support Files */,
-			);
-			name = ReachabilitySwift;
-			path = ReachabilitySwift;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		454AC8B1BF09A1D2478437F6FD361BFD /* Headers */ = {
+		5192EA6F1AA5FEA5582AE58ACFC5D774 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FC04B58E6CBAEFE349937D50B4F7C12 /* Pods-SilverPlateApp-umbrella.h in Headers */,
+				8B876DDC832499D5C86F76C623C61630 /* Pods-SilverPlateApp-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		9380D7A0BE10EC9A028E7E035E5752E6 /* Headers */ = {
+		7C0906501BC9624284F71DE4A80A237E /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2AFFB0D81A3F923DCCE495411E8566C /* ReachabilitySwift-umbrella.h in Headers */,
+				9C6058D452FC7E8E2EF5032A99D51D06 /* ReachabilitySwift-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5734293B5E5F28CAC4B7F2C5956A548 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55994F314CD75F17EF7F5949EB5916E2 /* SilverPlate-umbrella.h in Headers */,
+				C993BD8ADF086C93A7F45E8B8E66BDFB /* SilverPlate.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,22 +325,41 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		7D533D85508AC15C5F8CE4B016D34526 /* Pods-SilverPlateApp */ = {
+		1204FF0D8A76E3C8F9A958FFECA2A1B9 /* Pods-SilverPlateApp */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 417423B45E0B1F07CA886571870E046D /* Build configuration list for PBXNativeTarget "Pods-SilverPlateApp" */;
+			buildConfigurationList = BC9933CCE3939275142D214B47A5AD38 /* Build configuration list for PBXNativeTarget "Pods-SilverPlateApp" */;
 			buildPhases = (
-				3BB244A5AC3AB4EB23FB5D2D6F76F283 /* Sources */,
-				F533F09FA2A7DAF25C441FD335D14CFC /* Frameworks */,
-				454AC8B1BF09A1D2478437F6FD361BFD /* Headers */,
+				51BDF09521C49A81486B3A39E5172A7C /* Sources */,
+				C5C2D115A1588A71F87018AA70A71E88 /* Frameworks */,
+				5192EA6F1AA5FEA5582AE58ACFC5D774 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6F10B0FD793D9674FA90AAF3986620DD /* PBXTargetDependency */,
+				9D20411B4686B5DC7B16B7B3478F8EDC /* PBXTargetDependency */,
+				0FA568CDC485B3D22D8ED746B517CD83 /* PBXTargetDependency */,
 			);
 			name = "Pods-SilverPlateApp";
 			productName = "Pods-SilverPlateApp";
-			productReference = E1106CB50BE294A4A243FEFAC9D80CF9 /* Pods_SilverPlateApp.framework */;
+			productReference = BB44F9A39D1E1816582967C1CBD129D8 /* Pods_SilverPlateApp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		574D49F11610FBED22FB5A84F1CCE32E /* SilverPlate */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1B717E55B5B46DF4C750F41B480F782F /* Build configuration list for PBXNativeTarget "SilverPlate" */;
+			buildPhases = (
+				DB3E8010838236882D640FE257FBB144 /* Sources */,
+				18D467F22563F9C9D4671A8B7033ACFA /* Frameworks */,
+				A5734293B5E5F28CAC4B7F2C5956A548 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ADA7B63FF0B638A54EF3C04A6E0E08E0 /* PBXTargetDependency */,
+			);
+			name = SilverPlate;
+			productName = SilverPlate;
+			productReference = AFEEEE5D0ADEF1DB8AA58938BDDAC7CA /* SilverPlate.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		88CAB971636ECC05388415AD98A2D0D6 /* Pods-SilverPlateAppTests */ = {
@@ -272,16 +376,16 @@
 			);
 			name = "Pods-SilverPlateAppTests";
 			productName = "Pods-SilverPlateAppTests";
-			productReference = C35C564E2672F5E69541F51E5B8223B6 /* Pods_SilverPlateAppTests.framework */;
+			productReference = A8E1733754DCCC2C15EE381B226A45D7 /* Pods_SilverPlateAppTests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		FB1D360DE85892D2F4419E57EE724DFF /* ReachabilitySwift */ = {
+		AF4F48096EB41D8E96F8B130ED7FBE92 /* ReachabilitySwift */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 514BCCDE02DCD4A8D3B732D47E9FE91B /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
+			buildConfigurationList = B0CE2A9E5618D6E1B0333BC0F6F19FD8 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */;
 			buildPhases = (
-				14826D1F4BE76BC27B68C3516D6F1D5C /* Sources */,
-				82986A0340E4502881A2AE5995860A5E /* Frameworks */,
-				9380D7A0BE10EC9A028E7E035E5752E6 /* Headers */,
+				50A3B544CE21944A442817E4318BA28F /* Sources */,
+				CFDBBCC73513E519D2DAD7DE2ED25977 /* Frameworks */,
+				7C0906501BC9624284F71DE4A80A237E /* Headers */,
 			);
 			buildRules = (
 			);
@@ -289,7 +393,7 @@
 			);
 			name = ReachabilitySwift;
 			productName = ReachabilitySwift;
-			productReference = EB9165BE59B237C148EBA2C7935556EF /* ReachabilitySwift.framework */;
+			productReference = 50AA1D2DFC14069C2758A3DBBC3F56B1 /* ReachabilitySwift.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -309,32 +413,33 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9DF5CDA98F524E02DB8F13D58C742496 /* Products */;
+			productRefGroup = B12CC1E65917EDE1462ECF6032F27C7D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7D533D85508AC15C5F8CE4B016D34526 /* Pods-SilverPlateApp */,
+				1204FF0D8A76E3C8F9A958FFECA2A1B9 /* Pods-SilverPlateApp */,
 				88CAB971636ECC05388415AD98A2D0D6 /* Pods-SilverPlateAppTests */,
-				FB1D360DE85892D2F4419E57EE724DFF /* ReachabilitySwift */,
+				AF4F48096EB41D8E96F8B130ED7FBE92 /* ReachabilitySwift */,
+				574D49F11610FBED22FB5A84F1CCE32E /* SilverPlate */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		14826D1F4BE76BC27B68C3516D6F1D5C /* Sources */ = {
+		50A3B544CE21944A442817E4318BA28F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1649EA6CCDD1060A2BD26AD46ECC2670 /* Reachability.swift in Sources */,
-				9BC56CE052C42EE86CEEFBDDD6443DD7 /* ReachabilitySwift-dummy.m in Sources */,
+				958DB6D521068A0165E2F6C0951764DA /* Reachability.swift in Sources */,
+				4345E779C44760198F4F86D3A31B36D4 /* ReachabilitySwift-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3BB244A5AC3AB4EB23FB5D2D6F76F283 /* Sources */ = {
+		51BDF09521C49A81486B3A39E5172A7C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F8224218C4B552DDB3A9E808BD59CE0 /* Pods-SilverPlateApp-dummy.m in Sources */,
+				475390B17017ADD25D67E9EC30C9DF1C /* Pods-SilverPlateApp-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,14 +451,38 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		DB3E8010838236882D640FE257FBB144 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EDF53719894A79B7E63A26836F3CEE81 /* BatteryManager.swift in Sources */,
+				EA8154E3263369F32E308A4FCBFABDD0 /* ConnectivityManager.swift in Sources */,
+				81B7205D8827A6E2AB4CDC9091589ECF /* SilverPlate-dummy.m in Sources */,
+				7EA29C6247ABD438A8C3818478C8FF20 /* SilverPlate.swift in Sources */,
+				0E51C6E6E818810113B2C210B29BF9E0 /* SilverPlateTypes.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6F10B0FD793D9674FA90AAF3986620DD /* PBXTargetDependency */ = {
+		0FA568CDC485B3D22D8ED746B517CD83 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SilverPlate;
+			target = 574D49F11610FBED22FB5A84F1CCE32E /* SilverPlate */;
+			targetProxy = 09841738290FA20D7F2CCF13F2870727 /* PBXContainerItemProxy */;
+		};
+		9D20411B4686B5DC7B16B7B3478F8EDC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = ReachabilitySwift;
-			target = FB1D360DE85892D2F4419E57EE724DFF /* ReachabilitySwift */;
-			targetProxy = 81362C61CC0A6432048FE686CEF9FBD2 /* PBXContainerItemProxy */;
+			target = AF4F48096EB41D8E96F8B130ED7FBE92 /* ReachabilitySwift */;
+			targetProxy = 82022F77380DEDEAB76CA530D943A795 /* PBXContainerItemProxy */;
+		};
+		ADA7B63FF0B638A54EF3C04A6E0E08E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ReachabilitySwift;
+			target = AF4F48096EB41D8E96F8B130ED7FBE92 /* ReachabilitySwift */;
+			targetProxy = D642FD1D184C30E23225C3CDE6F9A96C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -402,41 +531,6 @@
 			};
 			name = Debug;
 		};
-		18E45AD8FB8D162DE421CC3AA859DFA5 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3A50F3C64693B4AAF74904B318248D33 /* Pods-SilverPlateApp.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SilverPlateApp/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-SilverPlateApp/Pods-SilverPlateApp.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_SilverPlateApp;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		44CDBB6D11DE06DB64D6268622BDC47E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -477,15 +571,15 @@
 			};
 			name = Release;
 		};
-		53660A911AC9E171ABEB24649741BAFF /* Release */ = {
+		5D78E95365528A0D6E65F1907BD0ABDB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2D2A444FC528FC0D4C80F57A3D32F88 /* ReachabilitySwift.xcconfig */;
+			baseConfigurationReference = 0A11A643D78838C18B22B0005FCD5CEC /* ReachabilitySwift.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -498,8 +592,41 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5F5FE01EEF4D2402A993CCF0108BC825 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1496E0CDF724CE4EA20CC1170C0225AB /* SilverPlate.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SilverPlate/SilverPlate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SilverPlate/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SilverPlate/SilverPlate.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SilverPlate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 3.0;
@@ -509,7 +636,7 @@
 			};
 			name = Release;
 		};
-		53D7E2B8361BA28CCCC5B1B9C8A78E96 /* Debug */ = {
+		A35B78A4ED299C7ECD4479C12E586895 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 715A04A4EDCB927F428AE9E1E6573EE6 /* Pods-SilverPlateApp.debug.xcconfig */;
 			buildSettings = {
@@ -580,9 +707,9 @@
 			};
 			name = Release;
 		};
-		C29AE53E9A6689C1F01F20FAF7C6A0FA /* Debug */ = {
+		CC00DDE4150EDF0B0E5AB5D69160F1A4 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E2D2A444FC528FC0D4C80F57A3D32F88 /* ReachabilitySwift.xcconfig */;
+			baseConfigurationReference = 1496E0CDF724CE4EA20CC1170C0225AB /* SilverPlate.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -595,14 +722,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/SilverPlate/SilverPlate-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SilverPlate/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MODULEMAP_FILE = "Target Support Files/SilverPlate/SilverPlate.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ReachabilitySwift;
+				PRODUCT_NAME = SilverPlate;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -612,6 +739,73 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		F20AEAF7641051D017E770C1A46474F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A11A643D78838C18B22B0005FCD5CEC /* ReachabilitySwift.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ReachabilitySwift/ReachabilitySwift-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ReachabilitySwift/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ReachabilitySwift/ReachabilitySwift.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ReachabilitySwift;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F8DE7424CE8108829FE8061CF05C0251 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A50F3C64693B4AAF74904B318248D33 /* Pods-SilverPlateApp.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SilverPlateApp/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SilverPlateApp/Pods-SilverPlateApp.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SilverPlateApp;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		FE16B7108D08775DB7257353742058EE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -651,6 +845,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1B717E55B5B46DF4C750F41B480F782F /* Build configuration list for PBXNativeTarget "SilverPlate" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC00DDE4150EDF0B0E5AB5D69160F1A4 /* Debug */,
+				5F5FE01EEF4D2402A993CCF0108BC825 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -660,29 +863,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		417423B45E0B1F07CA886571870E046D /* Build configuration list for PBXNativeTarget "Pods-SilverPlateApp" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				53D7E2B8361BA28CCCC5B1B9C8A78E96 /* Debug */,
-				18E45AD8FB8D162DE421CC3AA859DFA5 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		514BCCDE02DCD4A8D3B732D47E9FE91B /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				C29AE53E9A6689C1F01F20FAF7C6A0FA /* Debug */,
-				53660A911AC9E171ABEB24649741BAFF /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		614486C5943A1A0A55950B2E59CE666A /* Build configuration list for PBXNativeTarget "Pods-SilverPlateAppTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				FE16B7108D08775DB7257353742058EE /* Debug */,
 				B2C76B7BAEC5F99614E4442E42AF832E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0CE2A9E5618D6E1B0333BC0F6F19FD8 /* Build configuration list for PBXNativeTarget "ReachabilitySwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D78E95365528A0D6E65F1907BD0ABDB /* Debug */,
+				F20AEAF7641051D017E770C1A46474F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC9933CCE3939275142D214B47A5AD38 /* Build configuration list for PBXNativeTarget "Pods-SilverPlateApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A35B78A4ED299C7ECD4479C12E586895 /* Debug */,
+				F8DE7424CE8108829FE8061CF05C0251 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

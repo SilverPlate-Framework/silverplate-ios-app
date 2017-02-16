@@ -1,12 +1,16 @@
 PODS:
   - ReachabilitySwift (3)
+  - SilverPlate (0.4.9):
+    - ReachabilitySwift
 
 DEPENDENCIES:
   - ReachabilitySwift (~> 3)
+  - SilverPlate (~> 0.4)
 
 SPEC CHECKSUMS:
   ReachabilitySwift: f5b9bb30a0777fac8f09ce8b067e32faeb29bb64
+  SilverPlate: ed390c1a901eff446c4565b98e3b67d10495c884
 
-PODFILE CHECKSUM: 4797992f31c9d76e33125c9d5864e1c3c616b8a4
+PODFILE CHECKSUM: beb50a53cb4ea56a55b5be11b91e60c2b1fd0c9a
 
 COCOAPODS: 1.2.0

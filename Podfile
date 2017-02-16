@@ -7,6 +7,7 @@ target 'SilverPlateApp' do
 
   # Pods for SilverPlate App
   pod 'ReachabilitySwift', '~> 3'
+  pod 'SilverPlate', '~> 0.4'
 
   target 'SilverPlateAppTests' do
     inherit! :search_paths

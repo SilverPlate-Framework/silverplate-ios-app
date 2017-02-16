@@ -1,0 +1,6 @@
+framework module SilverPlate {
+  umbrella header "SilverPlate-umbrella.h"
+
+  export *
+  module * { export * }
+}
